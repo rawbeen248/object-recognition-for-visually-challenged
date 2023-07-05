@@ -19,7 +19,7 @@ This project is aimed at helping visually challenged people to detect, recognize
 5. Install the requirements: <br />
    pip install -r requirements.txt
 
-6. Run the script or notebook
+6. Run the script or notebook obj_rec_main.ipynb
 
 ## Future Improvements
 - One of the possible improvements is calculating the distance between the objects and the camera. This would allow the system to describe objects with more precision, informing if they are close or far.
