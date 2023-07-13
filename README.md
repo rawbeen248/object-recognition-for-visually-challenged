@@ -4,22 +4,29 @@ This project is aimed at helping visually challenged people to detect, recognize
 
 ## Setup <br />
 1. Clone the repository <br />
-   git clone https://github.com/rawbeen248/object-recognition-for-visually-challenged
+```
+git clone https://github.com/rawbeen248/object-recognition-for-visually-challenged
+```
 
-2. Navigate to the directory: <br />
-   cd object-recognition-for-visually-challenged
+3. Navigate to the directory: <br />
+```
+cd object-recognition-for-visually-challenged
+```
 
-3. Create a virtual environment: <br />
-   python -m venv venv
+5. Create a virtual environment: <br />
+```
+python -m venv venv
+```
 
-4. Activate the virtual environment: <br />
-   On Windows: .\venv\Scripts\activate <br />
-   On Linux or macOS: source venv/bin/activate
+6. Activate the virtual environment: <br />
+   On Windows: ```.\venv\Scripts\activate``` <br />
+   On Linux or macOS: ```source venv/bin/activate```
 
-5. Install the requirements: <br />
-   pip install -r requirements.txt
-
-6. Run the script or notebook obj_rec_main.ipynb
+7. Install the requirements: <br />
+```
+pip install -r requirements.txt
+```
+8. Run the script or notebook obj_rec_main.ipynb
 
 ## Future Improvements
 - One of the possible improvements is calculating the distance between the objects and the camera. This would allow the system to describe objects with more precision, informing if they are close or far.
